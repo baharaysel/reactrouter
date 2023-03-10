@@ -1,9 +1,10 @@
 import React from "react";
-import Navbar from "./Navbar";
+import NavigationBar from "./NavigationBar";
+
 function About() {
   return (
     <div>
-      <Navbar />
+      <NavigationBar />
       <h1>About Page</h1>
     </div>
   );
