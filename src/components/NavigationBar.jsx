@@ -21,9 +21,14 @@ function NavigationBar() {
             </Nav.Link>
             {/* <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link> */}
-            <Nav.Link href="/signin">Signin</Nav.Link>
+
+            <Nav.Link href="/signin" className="">
+              Signin
+            </Nav.Link>
             {/* <Nav.Link href="/signup">Signup</Nav.Link> */}
-            <Nav.Link href="/signup2">Signup</Nav.Link>
+            <Nav.Link href="/signup2" className="float-right">
+              Signup
+            </Nav.Link>
           </Nav>
           {/* <Form className="d-flex">
             <Form.Control
