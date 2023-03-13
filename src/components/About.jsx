@@ -4,7 +4,7 @@ import NavigationBar from "./NavigationBar";
 function About() {
   return (
     <div>
-      <NavigationBar />
+      {/* <NavigationBar /> */}
       <h1>About Page</h1>
     </div>
   );

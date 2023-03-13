@@ -2,10 +2,6 @@ import React from "react";
 import NavigationBar from "./NavigationBar";
 
 function Home() {
-  return (
-    <>
-      <NavigationBar />
-    </>
-  );
+  return <>{/* <NavigationBar /> */}</>;
 }
 export default Home;

@@ -4,7 +4,7 @@ import NavigationBar from "./NavigationBar";
 function Signup2() {
   return (
     <div className="bg-dark text-white">
-      <NavigationBar />
+      {/* <NavigationBar /> */}
       <header
         style={{
           position: "relative",

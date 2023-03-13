@@ -4,16 +4,17 @@ import NavigationBar from "./NavigationBar";
 function Signup() {
   return (
     <div className="bg-dark text-white">
-      <NavigationBar />
+      {/* <NavigationBar /> */}
       {/* <h1 classNameName="text-center p-3 font-italic">Ecommerce</h1> */}
 
       <div className="container mt-5">
         <div className="row">
           <div className="col m-2">
             <video
-              autoplay
-              muted
-              loop
+              playsinline="playsinline"
+              autoplay="autoplay"
+              muted="muted"
+              loop="loop"
               className="rounded"
               style={{ height: "50vh", objectFit: "cover", width: "50vh" }}
             >
