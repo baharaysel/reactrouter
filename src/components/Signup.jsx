@@ -2,14 +2,6 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavigationBar from "./NavigationBar";
 function Signup() {
-  const styleVideo = {
-    height: "100%",
-    objectFit: "cover",
-    width: "100%",
-  };
-  const aLink = {
-    textDecoration: "none",
-  };
   return (
     <div className="bg-dark text-white">
       <NavigationBar />
