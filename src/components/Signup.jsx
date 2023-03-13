@@ -44,6 +44,7 @@ function Signup() {
                   className="form-control"
                   id="fullname"
                   placeholder="full name"
+                  required
                 />
               </div>
 
@@ -53,7 +54,8 @@ function Signup() {
                   type="email"
                   className="form-control"
                   id="Email"
-                  placeholder="email"
+                  placeholder="email*"
+                  required
                 />
               </div>
               <div className="mb-3">
@@ -61,7 +63,8 @@ function Signup() {
                 <input
                   type="password"
                   className="form-control"
-                  placeholder="password"
+                  placeholder="password*"
+                  required
                 />
               </div>
               <div className="mb-3" form-check>
@@ -70,7 +73,7 @@ function Signup() {
               </div>
 
               <button
-                type="button"
+                type="submit"
                 className="btn btn-outline-secondary btn-lg btn-block"
               >
                 Create Account

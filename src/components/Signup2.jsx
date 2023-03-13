@@ -79,7 +79,8 @@ function Signup2() {
                       type="text"
                       className="form-control"
                       id="fullname"
-                      placeholder="full name"
+                      placeholder="full name*"
+                      required
                     />
                   </div>
 
@@ -89,7 +90,8 @@ function Signup2() {
                       type="email"
                       className="form-control"
                       id="Email"
-                      placeholder="email"
+                      placeholder="email*"
+                      required
                     />
                   </div>
                   <div className="mb-3">
@@ -97,7 +99,8 @@ function Signup2() {
                     <input
                       type="password"
                       className="form-control"
-                      placeholder="password"
+                      placeholder="password*"
+                      required
                     />
                   </div>
                   <div className="mb-3" form-check>
@@ -106,7 +109,7 @@ function Signup2() {
                   </div>
 
                   <button
-                    type="button"
+                    type="submit"
                     className="btn btn-outline-secondary btn-lg btn-block"
                     style={{ color: "whitesmoke" }}
                   >

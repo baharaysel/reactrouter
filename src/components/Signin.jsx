@@ -42,7 +42,8 @@ function Signin() {
                   type="email"
                   className="form-control"
                   id="Email"
-                  placeholder="email"
+                  placeholder="email*"
+                  required
                 />
               </div>
               <div className="mb-3">
@@ -50,7 +51,8 @@ function Signin() {
                 <input
                   type="password"
                   className="form-control"
-                  placeholder="password"
+                  placeholder="password*"
+                  required
                 />
               </div>
               {/* <div className="mb-3" form-check>
@@ -59,7 +61,7 @@ function Signin() {
             </div> */}
 
               <button
-                type="button"
+                type="submit"
                 className="btn btn-secondary btn-lg btn-block"
               >
                 Login
